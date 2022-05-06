@@ -10,7 +10,7 @@ from .models import Todo
 def apiview(request):
     api_urls ={
         'List':'/task-list/',
-        'Detail View':'/task-detail/<str:pk>/',
+        'Detail View':'/task-list/<str:pk>/',
         'Create':'/task_create/',
         'Update':'/task-update/<str:pk>/',
         'Delete':'/task-delete/<str:pk>/',
